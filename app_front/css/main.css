@@ -14,7 +14,7 @@
 /* Base */
 body {
    background: var(--preta);
-   font-family: 'Times New Roman', Times, serif;
+   font-family: 'Arial', Times, serif;
    color: white;
 }
 
@@ -98,4 +98,26 @@ header nav a:hover {
     height: 350px;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+.texto-modal-info {
+    color: #AAA;
+}
+
+#info {
+    background-color: rgba(0,0,0,.50);
+}
+
+#info a {
+    text-decoration: none;
+    color: silver;
+}
+
+.destaque-info-img {
+    width: 40%;
+    height: 50%;
 }

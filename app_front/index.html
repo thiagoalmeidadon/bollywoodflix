@@ -8,9 +8,21 @@
     <!-- Owl css-->
     <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modal info -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     <title>BollywoodFlix</title>
 </head>
 <body>
+    <!-- Modal Show -->
+    <div id="info" class="modal">
+        <img src="img/koi-destaque-info.jpg" alt="koi-destaque-info" class="destaque-info-img">
+        <p class="texto-modal-info">A scientist named Dr. Sanjay Mehra (director Rakesh Roshan) creates a computer program from which he sends variations of the syllable om into space, hoping to attract the attention of extraterrestrial life. When he believes he has finally gotten a response, the scientific community mocks him.
+        </p>
+        <br>
+        <a href="#" rel="modal:close">Fechar</a>
+    </div>
+
     <header>
         <div class="container">
             <h2 class="logo">BOLLYWOODFLIX</h2>
@@ -34,18 +46,20 @@
                         <i class="fas fa-arrow-alt-circle-right"></i>
                         ASSISTIR
                     </button>
-                    
+
+                    <a href="#info" rel="modal:open">
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
+                    </a>
                 </div>
             </div>
            
         </div>
     </main>
 
-    <div class="carrousel-filmes">
+    <div class="carrosel-filmes">
         <div class="owl-carousel owl-theme">
 
             <div class="item">
@@ -78,6 +92,7 @@
     <script src="https://kit.fontawesome.com/1194383a0d.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
